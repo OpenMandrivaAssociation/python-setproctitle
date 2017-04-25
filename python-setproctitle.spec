@@ -10,6 +10,7 @@ Url:		https://github.com/dvarrazzo/py-setproctitle/
 Source0:	https://pypi.io/packages/source/s/%{module}/%{module}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python-setuptools
 
 %description
 The library allows a process to change its title (as displayed by system tools
@@ -23,6 +24,7 @@ Summary:	A library allowing a process to change its title
 Group:		Development/Python
 
 BuildRequires:	pkgconfig(python2)
+BuildRequires:	python2-setuptools
 
 %description -n	python2-%{module}
 The library allows a process to change its title (as displayed by system tools
