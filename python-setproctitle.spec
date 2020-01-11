@@ -2,14 +2,14 @@
 
 Name:		python-%{module}
 Version:	1.1.10
-Release:	2
+Release:	3
 Summary:	A library allowing a process to change its title
 License:	BSD
 Group:		System/Libraries
 Url:		https://github.com/dvarrazzo/py-setproctitle/
 Source0:	https://pypi.io/packages/source/s/%{module}/%{module}-%{version}.tar.gz
 
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	python-setuptools
 
 %description
@@ -56,8 +56,8 @@ python3 setup.py install --root=%buildroot
 
 %files
 %doc HISTORY.rst README.rst
-%{python3_sitearch}/%{module}.cpython-3?m*.so
-%{python3_sitearch}/%{module}-%{version}-py%{python3_version}.egg-info
+%{python_sitearch}/%{module}.cpython-*.so
+%{python_sitearch}/%{module}-%{version}-py%{python_version}.egg-info
 
 %files -n python2-%{module}
 %doc HISTORY.rst README.rst
