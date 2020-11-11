@@ -1,4 +1,5 @@
 %define module	setproctitle
+%global debug_package %{nil}
 
 Name:		python-%{module}
 Version:	1.1.10
