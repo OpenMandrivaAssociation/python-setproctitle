@@ -21,7 +21,7 @@ a master process is forked: changing the children's title allows to identify
 the task each process is busy with.
 
 %prep
-%autosetup %{module}-%{version} -p1
+%autosetup -n %{module}-%{version} -p1
 
 
 %build
