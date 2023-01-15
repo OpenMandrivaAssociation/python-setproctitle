@@ -33,5 +33,5 @@ python3 setup.py install --root=%buildroot
 
 %files
 %doc HISTORY.rst README.rst
-#{python_sitearch}/%{module}.cpython-*.so
 %{python_sitearch}/%{module}-%{version}-py%{python_version}.egg-info
+%{python_sitearch}/setproctitle/
