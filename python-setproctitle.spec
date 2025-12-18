@@ -2,7 +2,7 @@
 %global debug_package %{nil}
 
 Name:		python-%{module}
-Version:	1.3.4
+Version:	1.3.7
 Release:	1
 Summary:	A library allowing a process to change its title
 License:	BSD
