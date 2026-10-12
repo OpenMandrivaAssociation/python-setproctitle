@@ -3,7 +3,7 @@
 
 Name:		python-%{module}
 Version:	1.3.7
-Release:	2
+Release:	3
 Summary:	A library allowing a process to change its title
 License:	BSD
 Group:		System/Libraries
